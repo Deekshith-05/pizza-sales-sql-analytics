@@ -123,16 +123,16 @@ git clone https://github.com/Deekshith-05/pizza-sales-sql-analytics.git
 cd pizza-sales-sql-analytics
 ```
 
-3.Install the required libraries:
+3. Install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
-4.Open the notebook:
+4. Open the notebook:
 ```bash
 jupyter notebook notebooks/pizza_sales_analysis.ipynb
 ```
 
-5.Run all cells from top to bottom.
+5. Run all cells from top to bottom.
 
 ## Conclusion
 
