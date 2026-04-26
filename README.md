@@ -109,3 +109,26 @@ pizza-sales-sql-analytics/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
+## How to Run
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/Deekshith-05/pizza-sales-sql-analytics.git
+
+cd pizza-sales-sql-analytics
+
+pip install -r requirements.txt
+
+jupyter notebook notebooks/pizza_sales_analysis.ipynb
+
+
+## 3. Add a short “Conclusion” section
+
+Add this at the end:
+
+```markdown
+## Conclusion
+
+This project demonstrates how SQL can be used to turn transaction-level sales data into practical business insights. The analysis supports better decisions around staffing, inventory preparation, product promotions, and sales timing.
