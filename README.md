@@ -106,6 +106,8 @@ pizza-sales-sql-analytics/
 │   ├── hourly_revenue_trend.png
 │   └── weekday_hour_heatmap.png
 │
+powerbi/
+└── pizza_sales_dashboard.pbix
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -133,6 +135,21 @@ jupyter notebook notebooks/pizza_sales_analysis.ipynb
 ```
 
 5. Run all cells from top to bottom.
+
+## Power BI Dashboard
+
+A Power BI dashboard was created to present the pizza sales analysis in an interactive business intelligence format.
+
+The dashboard includes:
+
+* Executive overview with key sales KPIs
+* Product performance analysis by pizza name, category, and size
+* Time-based sales analysis by weekday and hour
+* Peak and slow revenue hour analysis
+* Weekday-hour revenue heatmap
+
+Power BI file: `powerbi/pizza_sales_dashboard.pbix`
+
 
 ## Conclusion
 
