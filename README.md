@@ -94,7 +94,8 @@ pizza-sales-sql-analytics/
 │   └── pizza_sales.csv
 │
 ├── notebooks/
-│   └── pizza_sales_analysis.ipynb
+│   ├── pizza_sales_analysis.ipynb
+|   └──02_demand_forecasting_model.ipynb
 │
 ├── sql/
 │   ├── hourly_revenue.sql
@@ -150,6 +151,23 @@ The dashboard includes:
 
 Power BI file: `powerbi/pizza_sales_dashboard.pbix`
 
+## Machine Learning Extension
+
+A machine learning extension was added to predict hourly pizza revenue using time-based and historical demand features.
+
+The modelling process followed a clear workflow:
+
+- Built a baseline model using month, weekday, and hour
+- Evaluated Linear Regression and Random Forest
+- Improved performance using feature engineering
+- Added weekend, lunch, dinner, cyclical time, lag, and rolling average features
+- Compared multiple regression models
+- Selected Gradient Boosting as the final model
+- Tested hyperparameter tuning and selected the untuned model because it performed slightly better on the test set
+
+Final selected model: Gradient Boosting Regressor  
+Final RMSE: 109.47  
+Final R² Score: 0.331
 
 ## Conclusion
 
